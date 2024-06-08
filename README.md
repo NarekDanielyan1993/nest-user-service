@@ -5,7 +5,7 @@ Prerequisites
 
 Installation
 
-1. Clone the repository:
+1. Clone the repository: git@github.com:NarekDanielyan1993/nest-user-service.git
    git clone
 
 2. Install dependencies:
