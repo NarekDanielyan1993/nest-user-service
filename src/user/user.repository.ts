@@ -26,7 +26,6 @@ class UserRepository extends Repository<User> {
   async updateOne(id: number, updateData: Partial<User>): Promise<any> {
     try {
       const updatedUser = await this.update(id, updateData);
-      console.log(updatedUser);
       return updatedUser;
     } catch (error) {
       throw new InternalServerErrorException(USER_ERROR_MESSAGES.UPDATE);
@@ -37,7 +36,6 @@ class UserRepository extends Repository<User> {
     try {
       return this.count({ where: { problems: true } });
     } catch (error) {
-      console.log('error', error);
       throw new InternalServerErrorException(USER_ERROR_MESSAGES.COUNT);
     }
   }
