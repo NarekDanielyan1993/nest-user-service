@@ -25,6 +25,6 @@ Database Setup
 
 To start the application run following command
 
-npm run dev
+npm run start:dev
 
 The application will be served at http://localhost:3000.
