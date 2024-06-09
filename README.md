@@ -5,8 +5,7 @@ Prerequisites
 
 Installation
 
-1. Clone the repository: git@github.com:NarekDanielyan1993/nest-user-service.git
-   git clone
+1. Clone the repository: git clone git@github.com:NarekDanielyan1993/nest-user-service.git
 
 2. Install dependencies:
    npm install
